@@ -1,4 +1,4 @@
-package commons
+package authenticator
 
 import (
 	plugin "github.com/hashicorp/go-plugin"

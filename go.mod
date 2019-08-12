@@ -1,4 +1,4 @@
-module github.com/bee-projects/authenticator-plugin
+module github.com/bee-projects/proctor
 
 go 1.12
 

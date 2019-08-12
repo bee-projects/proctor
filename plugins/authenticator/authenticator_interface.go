@@ -1,4 +1,4 @@
-package commons
+package authenticator
 
 // Authenticator is the interface exposed as a plugin
 type Authenticator interface {
