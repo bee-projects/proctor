@@ -1,12 +1,9 @@
 # Overview
 
-As part of its advisory services arm, Bee Projects often builds integrations between various commercial and/or opensource products.
-
-![middleware](./images/middleware.png)
-
-A common and recurring theme across these integrations is enabling authentication between any middleware we develop and the source and/or destination systems we connect with.
+While forwarwarding traffic between systems, Proctor can facilitate the role of an authentication broker. 
 
 ![authentication](./images/authentication.png)
 
-We often integrate with the same off the shelf product across every client. This authenticator plugin project allows us to generecise the authentication mechanism using a plug-in model that enables us to reuse such capability across different environments.
+An  *Authenticator plugin* is an independant natively compiled binary that exposes an API over net/rpc. This allows us to generecise any given authentication mechanism using a plug-in model and enables its reuse across different applications and environments.
+
 
